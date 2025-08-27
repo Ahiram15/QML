@@ -54,7 +54,7 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
 - **Risk-based Routing**: Intelligent model selection based on risk levels
 - **Audit Trail**: Complete transaction and decision logging
 ```
-
+---
 ### 🧠 **Model Pipeline**
 
 1. **Data Preprocessing**
@@ -76,7 +76,7 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
    - Quantum OTP generation
    - Risk-based authentication
    - Progressive verification
-
+---
 ```
 
 ## 🚀 Installation
