@@ -77,7 +77,7 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
    - Risk-based authentication
    - Progressive verification
 
----
+```
 
 ## 🚀 Installation
 
