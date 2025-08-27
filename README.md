@@ -53,7 +53,9 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
 - **OTP Challenge System**: Quantum-secured one-time passwords
 - **Risk-based Routing**: Intelligent model selection based on risk levels
 - **Audit Trail**: Complete transaction and decision logging
-```
+
+---
+
 ### 🧠 **Model Pipeline**
 
 1. **Data Preprocessing**
@@ -61,15 +63,15 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
    - PCA reduction to 5 components
    - Amount normalization
 
-2. **Primary Classification (XGBoost)**
-   - Initial fraud probability assessment
-   - Fast decision for clear cases
-   - Route complex cases to quantum analysis
+2. **XGBoost Classification**
+   - Primary fraud detection model
+   - Fast gradient boosting algorithm
+   - Risk probability assessment
 
-3. **Quantum Analysis (QSVC)**
+3. **QSVC Analysis**
+   - Quantum Support Vector Classifier
    - Advanced pattern recognition
    - Quantum feature mapping
-   - Enhanced decision accuracy
 
 4. **Security Layer**
    - Quantum OTP generation
@@ -77,7 +79,6 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
    - Progressive verification
 
 ---
-
 
 ## 🚀 Installation
 
