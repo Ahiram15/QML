@@ -1,4 +1,3 @@
-# QML
 # ⚛️ QML Fraud Detection System
 
 <div align="center">
