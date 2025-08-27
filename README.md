@@ -53,34 +53,6 @@ The **QML Fraud Detection System** is a cutting-edge financial security platform
 - **OTP Challenge System**: Quantum-secured one-time passwords
 - **Risk-based Routing**: Intelligent model selection based on risk levels
 - **Audit Trail**: Complete transaction and decision logging
-
----
-
-## 🏗️ Architecture
-
-```mermaid
-graph TB
-    A[Transaction Input] --> B[Feature Extraction]
-    B --> C[XGBoost Classification]
-    C --> D{Risk Level}
-    
-    D -->|Low Risk < 30%| E[✅ Approve]
-    D -->|High Risk > 98%| F[❌ Block]
-    D -->|Medium Risk 30-98%| G[Quantum Analysis]
-    
-    G --> H{QSVC Available?}
-    H -->|Yes| I[QSVC Hybrid Analysis]
-    H -->|No| J[Quantum Enhancement]
-    
-    I --> K{Final Decision}
-    J --> K
-    
-    K -->|Approve| E
-    K -->|Block| F
-    K -->|Challenge| L[🔐 Quantum OTP]
-    
-    L --> M[User Verification]
-    M --> N[Final Approval/Block]
 ```
 
 ### 🧠 **Model Pipeline**
